@@ -1,0 +1,30 @@
+.image {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.slider {
+    overflow-x: hidden;
+}
+
+.slider-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-container {
+    margin: 40vh auto;
+}
+
+
+/* .left{
+  transform: translateX(100%);
+}
+.right{
+  transform: translateX(-100%);
+} */

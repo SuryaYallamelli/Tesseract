@@ -1,0 +1,95 @@
+.Navcontainer {
+    margin: 0px 80px;
+    height: 50px;
+    /* overflow-y: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    /* background-color: red; */
+}
+
+.logo {
+    margin: 0px 0px;
+    font-size: 1.2rem;
+}
+
+.Navcontainer-lists {
+    /* background-color: blue; */
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.Navcontainer-lists-items {
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.btn-grp {
+    margin-left: 50px;
+}
+
+.btn {
+    height: 2.5rem;
+    border-radius: 25px;
+    padding: 0px 30px;
+    font-size: 15px;
+    font-weight: 15%;
+    margin: 0px 8px;
+    cursor: pointer;
+}
+
+.btn-1 {
+    border: 1px solid black;
+}
+
+.btn-1:hover {
+    border-color: #7622d7;
+    color: #7622d7;
+}
+
+.btn-2 {
+    background-color: #7622d7;
+    border: 0.125px solid #7622d7;
+    color: white;
+}
+
+.btn-2:hover {
+    background-color: #45167a;
+    border-color: #45167a;
+}
+
+
+/* .Modal-container {
+    position: relative;
+} */
+
+.Modal-container {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    scroll-behavior: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+}
+
+.Modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    height: 500px;
+    max-width: 800px;
+    Position: relative;
+}
