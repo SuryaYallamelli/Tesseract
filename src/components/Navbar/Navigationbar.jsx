@@ -15,6 +15,10 @@ function Navigationbar() {
     setActiveNav({...activeNavValues, [e.target.id]:!activeNav[e.target.id]})
     // console.log(e.target.id);
   };
+  
+  const modalClickHandler = ()=>{
+    setActiveNav(activeNavValues)
+  }
 
   activeNav.products || activeNav.solutions || activeNav.whyus || activeNav.partners || activeNav.resources ? document.body.style.overflow = "hidden" : document.body.style.overflow = "auto";
   return (
@@ -26,7 +30,8 @@ function Navigationbar() {
         <ul className='Navcontainer-lists'>
           <li className='Navcontainer-lists-items'>
             <div id='products' onClick={clickhandler}>
-              Products
+              Products 
+              {/* {activeNav.products ? img-1 : img-2} */}
             </div>
           </li>
           <li className='Navcontainer-lists-items'>
@@ -61,28 +66,28 @@ function Navigationbar() {
         </div>
       </div>
       {activeNav.products && 
-        <div className='Modal-container'>
+        <div className='Modal-container' onClick={modalClickHandler}>
           <div className="Modal-content">
             This is div refering products
           </div>
         </div>
       }
-      {activeNav.solutions && <div className='Modal-container'>
+      {activeNav.solutions && <div className='Modal-container' onClick={modalClickHandler}>
           <div className="Modal-content">
             This is div refering Solutions
           </div>
       </div>}
-      {activeNav.whyus && <div className='Modal-container'>
+      {activeNav.whyus && <div className='Modal-container' onClick={modalClickHandler}>
           <div className="Modal-content">
             This is div refering Why us
           </div>
       </div>}
-      {activeNav.partners && <div className='Modal-container'>
+      {activeNav.partners && <div className='Modal-container' onClick={modalClickHandler}>
           <div className="Modal-content">
             This is div refering partners
           </div>
       </div>}
-      {activeNav.resources && <div className='Modal-container'>
+      {activeNav.resources && <div className='Modal-container' onClick={modalClickHandler}>
           <div className="Modal-content">
             This is div refering resources
           </div>

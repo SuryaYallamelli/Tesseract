@@ -89,6 +89,7 @@ nav a {
     justify-content: space-around;
     gap: 0px;
     padding: 0px 150px;
+    font-size: large;
 }
 
 .righthero {

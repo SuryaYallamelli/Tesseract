@@ -3,6 +3,7 @@ import './App.css'
 import { useState } from 'react'
 import Car from '../../components/Sections/Carousel/Car'
 import MCC from '../../MulticolCarousel/MCC'
+import Footer from '../../components/Footer/Footer';
 
 const App = () => {
   const [showModal, setShowModal] = useState(false);
@@ -216,7 +217,7 @@ function clickHandler(e){
           <img src="https://employmenthero.com/wp-content/uploads/2023/02/Home-page-Culture-and-Performance-468x468.png" alt="" />
         </div>
         <div>
-          <div>Culture and performance. <br />It’s up and up.</div>
+          <div><h1>Culture and performance. <br />It’s up and up.</h1></div>
           <div>Develop feedback loops, set KPIs and design custom <br /> performance reviews. Quickly build a positive performance <br /> culture for your business — where everyone is aiming for <br /> the same goals.
           </div>
           <div>
@@ -229,7 +230,7 @@ function clickHandler(e){
       <div className='hero'>
         <div>
           <div>
-            It's Payroll Software. <br />Just faster.
+            <h1>It's Payroll Software. <br />Just faster.</h1>
           </div>
           <div>
           Save your time, pay your people with automated payroll. <br /> Enjoy the benefits of Single Touch Payroll (STP) and take <br /> care of workforce planning - all in one simple place.
@@ -249,7 +250,7 @@ function clickHandler(e){
           <img src="	https://employmenthero.com/wp-content/uploads/2023/02/Home-page-ATS-468x468.png" alt="" />
         </div>
         <div>
-          <div>Recruitment and onboarding. <br />Breeze through it.</div>
+          <div><h1>Recruitment and onboarding. <br />Breeze through it.</h1></div>
           <div>
           Save time, improve processes and streamline hiring. <br /> Managing candidates just got a whole lot easier. Post job <br /> listings to over 20 different job boards, then manage all <br /> applicants through each stage.
           </div>
@@ -262,7 +263,7 @@ function clickHandler(e){
       {/* Section-9 */}
       <div className='hero'>
         <div>
-          <div>Engage your people. <br />Even on Mondays.</div>
+          <div><h1>Engage your people. <br />Even on Mondays.</h1></div>
           <div>
           Monday mornings. We love 'em. Effective engagement <br /> for your team starts  – and continues – here.
           </div>
@@ -338,10 +339,10 @@ function clickHandler(e){
       {/* Section-12 */}
       <div className='hero'>
         <div>
-          <img src="https://employmenthero.com/wp-content/uploads/2023…2/63d754b1cdfd66f01826dc67_hero-p-800-468x468.png" alt="" />
+          <img src="https://employmenthero.com/wp-content/uploads/2023/02/63d754b1cdfd66f01826dc67_hero-p-800-468x468.png" alt="" />
         </div>
         <div>
-          <div>Talent Insights <br />Report</div>
+          <div><h1>Talent Insights <br />Report</h1></div>
           <div>
             'The Great Resignation', 'Quiet Quitting', 'Career <br /> Cushioning'... What's going on with Australian emplyees <br /> and the jobs market in 2023? We surveyed 1,000 to find <br /> out.
           </div>
@@ -356,6 +357,9 @@ function clickHandler(e){
       
       {/* Section-14 */}
       <MCC/>
+
+      {/* Section-14 */}
+      <Footer/>
   </div>
   )
 }
