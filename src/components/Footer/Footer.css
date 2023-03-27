@@ -1,10 +1,10 @@
 .h-container {
     /* max-width: 68rem; */
     /* width: 100%; */
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* padding-left: 1.5rem;
+    padding-right: 1.5rem; */
 }
 
 .footer-newsletter_signup {
@@ -84,6 +84,7 @@ li {
 }
 
 .footer-column_link {
+    width: 150px;
     margin-bottom: 0.5rem;
 }
 

@@ -11,17 +11,17 @@ const Footer = () => {
               <div className="footer-column">
                 <div className="footer-column_container">
                   <div className="footer-column_heading">
-                    <span className="font-semibold">Company</span>
+                    <span className="font-semibold"><p>Company</p></span>
                   </div>
                   <ul className="footer-column_links">
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>About us</a>
+                      <a href="/" className='text-sm'><p>About us</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Careers</a>
+                      <a href="/" className='text-sm'><p>Careers</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Become a partner</a>
+                      <a href="/" className='text-sm'><p>Become a partner</p></a>
                     </li>
                   </ul>
                 </div>
@@ -29,17 +29,17 @@ const Footer = () => {
               <div className="footer-column">
               <div className="footer-column_container">
                   <div className="footer-column_heading">
-                    <span className="font-semibold">Get in Touch</span>
+                    <span className="font-semibold"><p>Get in Touch</p></span>
                   </div>
                   <ul className="footer-column_links">
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Contact us</a>
+                      <a href="/" className='text-sm'><p>Contact us</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Sales</a>
+                      <a href="/" className='text-sm'><p>Sales</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Report a bug</a>
+                      <a href="/" className='text-sm'><p>Report a bug</p></a>
                     </li>
                   </ul>
                 </div>
@@ -47,21 +47,21 @@ const Footer = () => {
               <div className="footer-column">
               <div className="footer-column_container">
                   <div className="footer-column_heading">
-                    <span className="font-semibold">Support</span>
+                    <span className="font-semibold"><p>Support</p></span>
                   </div>
                   <ul className="footer-column_links">
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Service Centre</a>
+                      <a href="/" className='text-sm'><p>Service Centre</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Help Desk</a>
+                      <a href="/" className='text-sm'><p>Help Desk</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Hero Academy</a>
+                      <a href="/" className='text-sm'><p>Hero Academy</p></a>
                     </li>
 
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Implementation Hub</a>
+                      <a href="/" className='text-sm'><p>Implementation <br /> Hub</p></a>
                     </li>
                   </ul>
                 </div>
@@ -69,23 +69,23 @@ const Footer = () => {
               <div className="footer-column">
               <div className="footer-column_container">
                   <div className="footer-column_heading">
-                    <span className="font-semibold">Pick your region</span>
+                    <span className="font-semibold"><p>Pick your region</p></span>
                   </div>
                   <ul className="footer-column_links">
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Australia</a>
+                      <a href="/" className='text-sm'><p>Australia</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>New Zealand</a>
+                      <a href="/" className='text-sm'><p>New Zealand</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>United Kingdom</a>
+                      <a href="/" className='text-sm'><p>United Kingdom</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Singapore</a>
+                      <a href="/" className='text-sm'><p>Singapore</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Malaysia</a>
+                      <a href="/" className='text-sm'><p>Malaysia</p></a>
                     </li>
                   </ul>
                 </div>
@@ -93,20 +93,20 @@ const Footer = () => {
               <div className="footer-column">
               <div className="footer-column_container">
                   <div className="footer-column_heading">
-                    <span className="font-semibold">Product</span>
+                    <span className="font-semibold"><p>Product</p></span>
                   </div>
                   <ul className="footer-column_links">
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Products</a>
+                      <a href="/" className='text-sm'><p>Products</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Solutions</a>
+                      <a href="/" className='text-sm'><p>Solutions</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Integration</a>
+                      <a href="/" className='text-sm'><p>Integration</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Quick Demos</a>
+                      <a href="/" className='text-sm'><p>Quick Demos</p></a>
                     </li>
                   </ul>
                 </div>
@@ -114,24 +114,24 @@ const Footer = () => {
               <div className="footer-column">
               <div className="footer-column_container">
                   <div className="footer-column_heading">
-                    <span className="font-semibold">Connect</span>
+                    <span className="font-semibold"><p>Connect</p></span>
                   </div>
                   <ul className="footer-column_links">
 
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Facebook</a>
+                      <a href="/" className='text-sm'><p>Facebook</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Twitter</a>
+                      <a href="/" className='text-sm'> <p>Twitter</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Instagram</a>
+                      <a href="/" className='text-sm'><p>Instagram</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>LinkedIn</a>
+                      <a href="/" className='text-sm'><p>LinkedIn</p></a>
                     </li>
                     <li className="footer-column_link">
-                      <a href="/" className='text-sm'>Youtube</a>
+                      <a href="/" className='text-sm'><p>Youtube</p></a>
                     </li>
                   </ul>
                 </div>
@@ -152,11 +152,13 @@ const Footer = () => {
               <div className="newsletter_signup-container">
                 <div className="newsletter_signup-text_content">
                   <div className="newsletter_signup-heading">
-                    <span className="font-semibold">Acknowledgement of Country</span>
+                    <span className="font-semibold"><p>Acknowledgement of Country</p></span>
                   </div>
                   <div className="newsletter_signup-description">
                     <span>
-                      We Acknowledge Aboriginal and Torres strait Islander peoples as <br /> the First Australians and Traditional Custodians of the lands where <br /> we live, learn and work."
+                      <p>
+                      We Acknowledge Aboriginal and Torres strait Islander peoples as <br /> the First Australians and Traditional Custodians of the lands where <br /> we live, learn and work.
+                      </p>
                     </span>
                   </div>
                 </div>

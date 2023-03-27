@@ -1,80 +1,9 @@
-/* * {
-    box-sizing: border-box;
-    margin: 0%;
+* {
+    /* box-sizing: border-box;
+    margin: 0%; */
     font-family: Roobert, sans-serif;
-    overflow-x: hidden;
-    width: 100%;
-} */
-
-
-/*---------------------------------
------Navbar Styling------------
-----------------------------------*/
-
-#nav {
-    background-color: #f2f2f2;
-    padding: 10px;
-    position: relative;
-    z-index: 2;
-    background-color: #f2f2f2;
-    padding: 10px;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-nav a {
-    color: #333;
-    text-decoration: none;
-    padding: 5px 10px;
-    /* border: 1px solid #ccc; */
-    /* border-radius: 5px; */
-}
-
-.modal {
-    position: relative;
-    top: 0;
-    z-index: 1;
-    left: auto;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.4);
-    justify-content: center;
-}
-
-.modal-content {
-    background-color: #fff;
-    margin: auto;
-    padding: 20px;
-    width: 80%;
-    height: 500px;
-    max-width: 800px;
-    /* border-radius: 5px; */
-    position: relative;
-}
-
-.close {
-    color: #aaa;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
+    /* overflow-x: hidden;
+    width: 100%; */
 }
 
 
@@ -87,9 +16,9 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 0px;
     padding: 0px 150px;
     font-size: large;
+    height: 800px;
 }
 
 .righthero {
@@ -98,48 +27,50 @@ nav a {
     align-items: start;
     justify-content: space-around;
     /* background-color: red; */
-    height: 300px;
+    height: 400px;
     width: 500px;
 }
 
 h1 {
     font-weight: 500;
-    font-size: 3.5rem;
-    font-family: Roobert, sans-serif;
+    font-size: 4.8rem;
 }
 
 .para {
     font-size: x-large;
     font-weight: 500;
-    font-family: Roobert, sans-serif;
 }
 
-.btn-primary {
+.button {
     background-color: #7622d7;
     color: white;
     border: 0.125rem solid #7622d7;
     cursor: pointer;
     transition: all .3s;
     box-shadow: none;
-    /* background: none; */
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 0.875rem 1.875rem;
+    padding: 1.875rem 3.375rem;
     font-weight: 600;
-    border-radius: 2rem;
-    font-size: 1rem;
+    border-radius: 2.5rem;
+    font-size: 1.5rem;
     line-height: 1.25rem;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    background-color: #4b227b;
+    color: white;
+    border: 0.125rem solid #7622d7;
+    cursor: pointer;
 }
 
 .lefthero {
     display: flex;
     align-items: center;
     justify-content: start;
-    /* background-color: red; */
-    margin-bottom: 50px;
-    height: 650px;
 }
 
 
@@ -178,7 +109,7 @@ h1 {
 
 
 /*---------------------------------
-------Section-2 Styling------------
+------Section-3 Styling------------
 ----------------------------------*/
 
 .St {
@@ -203,7 +134,7 @@ h1 {
 
 
 /*---------------------------------
-------Section-3 Styling------------
+------Section-4 Styling------------
 ----------------------------------*/
 
 .St {
@@ -246,16 +177,16 @@ h4 {
 
 
 /*---------------------------------
-------Section-4 Styling------------
+------Section-5 Styling------------
 ----------------------------------*/
 
 .Sf-hero {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 800px;
-    /* background-color: blue; */
-    padding: 0px 15%;
+    height: 700px;
+    padding: 0px 10%;
+    background-color: #f6eefc;
 }
 
 .hero-left {
@@ -268,14 +199,14 @@ h4 {
 }
 
 .hero-left-content {
-    /* background-color: red; */
-    height: 400px;
+    height: 300px;
     width: 500px;
-    gap: 20px;
+    gap: 100px;
 }
 
 .sfpara {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
+    margin-top: 20px;
 }
 
 .s4-h2 {
@@ -283,16 +214,15 @@ h4 {
     line-height: 4rem!important;
 }
 
-.hero-right-content {
+.s4-left-listgroup {
     /* background-color: blue; */
     width: 500px;
     height: 300px;
     margin-bottom: 20px;
-    padding-top: 20px;
 }
 
 .s4-listitems {
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 
@@ -319,7 +249,7 @@ h4 {
 }
 
 .s5-list {
-    padding: 40px 0px;
+    padding: 20px 0px 0px 20px;
     font-size: 1.7rem;
 }
 
@@ -330,14 +260,122 @@ h4 {
     flex-direction: column;
     align-items: start;
     justify-content: space-around;
-    /* gap: 50px; */
 }
 
 .s5-button {
     background: none;
     color: black;
-    border: 0.125rem solid #7622d7;
+    border: 0.125rem solid black;
     line-height: 2rem;
+    cursor: pointer;
+    transition: all .3s;
+    box-shadow: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1.875rem 3.375rem;
+    font-weight: 600;
+    border-radius: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+}
+
+.between {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 160px;
+}
+
+.between-h1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+
+/*---------------------------------
+------Section-6 Styling------------
+----------------------------------*/
+
+.s6-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+    margin: 0px 10%;
+}
+
+.s6-right {}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+
+/*---------------------------------
+------Section-7 Styling------------
+----------------------------------*/
+
+.s7-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px 10%;
+    height: 600px;
+}
+
+.s7-left {
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    align-items: start;
+    justify-content: space-around;
+}
+
+
+/*---------------------------------
+------Section-8 Styling------------
+----------------------------------*/
+
+.s8-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+}
+
+.s8-right {
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    align-items: start;
+    justify-content: space-around;
+}
+
+
+/*---------------------------------
+------Section-9 Styling------------
+----------------------------------*/
+
+.s9-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px 10%;
+    height: 600px;
+}
+
+.s9-left {
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    align-items: start;
+    justify-content: space-around;
 }
 
 
@@ -346,7 +384,7 @@ h4 {
 ----------------------------------*/
 
 .s10 {
-    height: 500px;
+    height: 600px;
     background-color: #ac7ae7;
     display: flex;
     flex-direction: column;
@@ -355,7 +393,13 @@ h4 {
 }
 
 .s10-main {
-    max-width: 68rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    gap: 40px;
+    max-width: 100rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -364,6 +408,9 @@ h4 {
 }
 
 .s10-h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 2.625rem;
     line-height: 3rem;
     letter-spacing: -.0125rem;
@@ -397,32 +444,76 @@ h4 {
     margin: 0px 80px;
 }
 
-.rightcrd {
-    /* margin-top: 20px; */
+.card {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 50rem;
+    height: 85rem;
 }
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.crd-button {}
 
 .ind1 {
     margin-bottom: 50px;
     display: flex;
     flex-direction: row;
-    height: 250px;
-    /* background-color: green; */
+    width: 50rem;
+    height: 40rem;
+    background-color: skyblue;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    margin-left: 20px;
 }
 
 .card-img-top-vertical {
-    height: 250px;
+    height: 400px;
     width: 200px;
 }
 
 .ind2 {
-    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
-    height: 250px;
-    /* background-color: green; */
+    width: 50rem;
+    height: 40rem;
+    background-color: yellow;
 }
 
 
 /*---------------------------------
 ------Section-13 Styling------------
 ----------------------------------*/
+
+.s14-hero {
+    height: 800px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #7622d7;
+    padding: 0px 10%;
+}
+
+.s14-left {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}

@@ -1,13 +1,14 @@
 .image {
     width: 100px;
     height: 100px;
-    margin: 0 20px;
+    margin: 0 45px;
     position: relative;
     transition: transform 0.2s ease-in-out;
 }
 
 .slider {
     overflow-x: hidden;
+    width: 950px;
 }
 
 .slider-wrapper {
@@ -18,7 +19,7 @@
 }
 
 .slider-container {
-    margin: 40vh auto;
+    margin: 10vh auto;
 }
 
 

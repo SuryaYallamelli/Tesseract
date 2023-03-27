@@ -16,14 +16,16 @@ body {
 
 .carousel {
     overflow: hidden;
-    width: 700px;
+    /* width: 700px; */
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin: 0px 20%;
+    margin: 7% 10%;
 }
 
 .inner {
+    width: 1000px;
     white-space: nowrap;
     transition: transform 0.3s;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -38,7 +40,7 @@ body {
 }
 
 .carousel-img {
-    width: 300px;
+    width: 480px;
     padding: 0 20px 0 20px;
 }
 
@@ -48,12 +50,13 @@ body {
     margin: 40px 0 40px 0;
     padding: 0 20px 0 20px;
     white-space: normal;
-    color: #617d98;
+    color: black;
 }
 
 .carousel-buttons {
+    width: 1000px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .button-arrow {
