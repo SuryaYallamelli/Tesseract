@@ -1,8 +1,13 @@
 import React from 'react'
+import Footer from '../../components/Footer/Footer'
+import LCRI from '../../components/Sections/LCRI/LCRI'
 
 const Products = () => {
   return (
-    <div>Welcome to products page!</div>
+    <div>
+     <LCRI/>
+     <Footer/> 
+    </div>
   )
 }
 

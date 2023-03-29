@@ -40,7 +40,24 @@ import Accounting from './pages/Industry/Accounting';
 import Construction from './pages/Industry/Construction';
 import Healthcare from './pages/Industry/Healthcare';
 import Navigationbar from './components/Navbar/Navigationbar';
-import Car from './components/Sections/Carousel/Car';
+
+//Whyus page imports
+import Whyus from './pages/Whyus/Whyus';
+import Safesecure from './pages/Whyus/Safesecure';
+
+//Partners page imports
+import Partners from './pages/Partners/Partners';
+import Accountants from './pages/Partners/Accountants';
+import Bookkeepers from './pages/Partners/Bookkeepers';
+import OPP from './pages/Partners/OPP';
+import SA from './pages/Partners/SA';
+import Refer from './pages/Partners/Refer';
+
+//Resources page imports
+import Resources from './pages/Resources/Resources';
+import Qdemo from './pages/Resources/Qdemo';
+import Tinsights from './pages/Resources/Tinsights';
+
 function App() {
   return (
     <div className="App">
@@ -48,7 +65,7 @@ function App() {
       <BrowserRouter>
         <Routes>
         <Route path='/' element={<Home/>}/>
-          Products Section
+          {/* Products Section */}
           <Route path='/Products' element={<Products/>}/>
           <Route path='/Products/HR-software' element={<Hrsoftware/>}/>
           <Route path='/Products/Payroll-software' element={<Payrollsoftware/>}/>
@@ -56,14 +73,14 @@ function App() {
           <Route path='/Products/employee-learning-management-system' element={<LMS/>}/>
           <Route path='/Products/applicant-tracking-system' element={<ATS/>}/>
           <Route path='/Products/employment-superapp' element={<Superapp/>}/>
-          /* Services Section
+           {/* Services Section */}
           <Route path='/Services' element={<Services/>}/>
           <Route path='/Services/eap' element={<Eap/>}/>
           <Route path='/Services/hr-implementation' element={<Hrimp/>}/>
           <Route path='/Services/payroll-implementation' element={<Payroll/>}/>
           <Route path='/Services/advisory-lines' element={<Advisory/>}/>
           <Route path='/Services/learning-plus' element={<Learning/>}/>
-          /* Solutions Section */
+          {/* Solutions Section */}
           <Route path='/Solutions' element={<Solutions/>}/>
           <Route path='/Solutions/Business-Performance' element={<BP/>}/>
           <Route path='/Solutions/recruitment-software' element={<Recruitment />}/>
@@ -79,8 +96,25 @@ function App() {
           <Route path='/Industry/accounting' element={<Accounting/>}/>
           <Route path='/Industry/healthcare' element={<Healthcare/>}/>
           <Route path='/Industry/construction' element={<Construction/>}/>
+          {/* Whyus Section */}
+          <Route path='/about-us' element={<Whyus/>}/>
+          <Route path='/trust-security' element={<Safesecure/>}/>
+
+          {/* Partners Section */}
+          <Route path='/partner-network' element={<Partners/>}/>
+          <Route path='/partner-network/accountants' element={<Accountants/>}/>
+          <Route path='/partner-network/bookkeepers' element={<Bookkeepers/>}/>
+          <Route path='/partner-network/outsourced-payroll-providers' element={<OPP/>}/>
+          <Route path='/become-a-strategic-partner' element={<SA/>}/>
+          <Route path='/become-a-partner' element={<Refer/>}/>
+          
           {/* Pricing Section */}
           <Route path='/Pricing' element={<Pricing/>}/>
+
+          {/* Resources Section */}
+          <Route path='/resources' element={<Resources/>}/>
+          <Route path='/quick-demos' element={<Qdemo/>}/>
+          <Route path='/talent-insights' element={<Tinsights/>}/>
         </Routes>
       </BrowserRouter>
     </div>
