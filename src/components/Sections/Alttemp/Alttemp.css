@@ -1,0 +1,8 @@
+.left-img-right-cont,
+.right-img-left-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0% 6%;
+    margin: 0% 0%;
+}
