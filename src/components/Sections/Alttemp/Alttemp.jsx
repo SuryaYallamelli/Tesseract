@@ -1,35 +1,47 @@
-import React from 'react'
-import './Alttemp.css'
+import React from "react";
+import "./Alttemp.css";
 
-const Alttemp = ({Alttempdata}) => {
-  return (
-    <div>
-      <div className='left-img-right-cont'>
-      <img className='left-img-right-cont-img' src="	https://employmenthero.com/wp-content/uploads/2021/07/ProductOverview_1-495x468.png" alt="" />
-        <div>
-          <div className="title">
-            <h2>Fake title</h2>
+const Alttemp = ({ Alttempdata }) => {
+  return Alttempdata.map((data, index) => {
+    if (index === 0 || index % 2 === 0) {
+      return (
+        <>
+          <div className="left-img-right-cont">
+            <img
+              className="left-img-right-cont-img"
+              src={data.img}
+              alt="img1"
+            />
+            <div>
+              <div className="title">
+                <h2>{data.title}</h2>
+              </div>
+              <div className="subtitle">
+                <p>{data.subtitle}</p>
+              </div>
+              <a href={data.link}>see{data.linkdata}</a>
+            </div>
           </div>
-          <div className="subtitle">
-            <p>Fake subtitle</p>
+        </>
+      );
+    }
+    return (
+      <>
+        <div className="right-img-left-cont">
+          <div>
+            <div className="title">
+              <h2>{data.title}</h2>
+            </div>
+            <div className="subtitle">
+              <p>{data.subtitle}</p>
+            </div>
+            <a href={data.link}>see{data.linkdata}</a>
           </div>
-          <a href="">see</a>
+          <img className="right-img-left-cont-img" src={data.img} alt="img2" />
         </div>
-      </div>
+      </>
+    );
+  });
+};
 
-      <div className='right-img-left-cont'>
-        <div>
-          <div className="title">
-            <h2>Fake title</h2>
-          </div>
-          <div className="subtitle">
-            <p>Fake subtitle</p>
-          </div>
-        </div>
-        <img className='right-img-left-cont-img' src="	https://employmenthero.com/wp-content/uploads/2021/07/ProductOverview_1-495x468.png" alt="" />
-      </div>
-    </div>
-  )
-}
-
-export default Alttemp
+export default Alttemp;

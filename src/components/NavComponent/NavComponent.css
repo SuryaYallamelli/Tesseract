@@ -1,0 +1,104 @@
+.nav-container{
+    display: flex;
+    justify-content: center;
+    flex-grow: grow;
+    border-bottom: .0625rem solid #e8e7e8;
+    height: 80px;
+    padding: 0 25px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+.nav-main{
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 6fr 2fr;
+    align-items: center;
+}
+.nav-links{
+    margin: 0 10%;
+    max-width: 600px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.nav-logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: blueviolet;
+}
+.nav-buttons{
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 25px;
+    flex-wrap: nowrap;
+}
+.button-primary{
+    padding: 8px 25px;
+    border: 0 none;
+    border-radius: 25px;
+    background-color: blueviolet;
+    color: white;
+}
+.button-primary:hover{
+    background-color: indigo;
+}
+.button-outline{
+    padding: 8px 25px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.button-outline:hover{
+    border-color: blueviolet;
+    color: blueviolet;
+}
+
+.Modal-container {
+    position: fixed;
+    top: 80px;
+    z-index: 2;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    scroll-behavior: none;
+    background-color: rgba(0, 0, 0, 0.75);
+    justify-content: center;
+}
+
+.Modal-content {
+    background-color: white;
+    padding-left: 0px;
+    margin: auto;
+    padding-top: 50px;
+    max-width: 1080px;
+    height: 650px;
+    Position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
