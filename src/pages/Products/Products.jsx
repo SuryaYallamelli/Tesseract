@@ -24,6 +24,12 @@ const Products = () => {
      {/* section-3 */}
      <Threeitems item={item}/>
 
+     <div className="between">
+      <div className="between-h1">
+        Hordwork? Forget it.
+      </div>
+     </div>
+
      {/* section-4 */}
      <Alttemp Alttempdata={Alttempdata}/>
 

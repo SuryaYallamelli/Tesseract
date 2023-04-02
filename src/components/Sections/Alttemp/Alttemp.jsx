@@ -19,7 +19,7 @@ const Alttemp = ({ Alttempdata }) => {
               <div className="subtitle">
                 <p>{data.subtitle}</p>
               </div>
-              <a href={data.link}>see{data.linkdata}</a>
+              <a className="button" href={data.link}>see{data.linkdata}</a>
             </div>
           </div>
         </>
@@ -35,7 +35,7 @@ const Alttemp = ({ Alttempdata }) => {
             <div className="subtitle">
               <p>{data.subtitle}</p>
             </div>
-            <a href={data.link}>see{data.linkdata}</a>
+            <a className="button" href={data.link}>see{data.linkdata}</a>
           </div>
           <img className="right-img-left-cont-img" src={data.img} alt="img2" />
         </div>

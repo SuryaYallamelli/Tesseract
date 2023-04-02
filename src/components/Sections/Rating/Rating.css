@@ -1,0 +1,32 @@
+.ratings-component {
+    height: 100px;
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.stars-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+
+.stars-text {
+    padding-top: 10px;
+}
+
+.stars {
+    max-width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    max-width: 15%;
+    margin-left: 20px;
+}

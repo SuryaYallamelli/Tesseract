@@ -13,7 +13,7 @@ const CI = ({data}) => {
           <div className="title">
               <h1>{title}</h1>
               <div className="subtitle">
-                <h2>{subtitle}</h2>
+                <h3>{subtitle}</h3>
               </div>
           </div>
           <a className='button' href="">{button}</a>

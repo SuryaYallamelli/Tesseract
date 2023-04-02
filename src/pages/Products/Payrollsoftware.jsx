@@ -1,6 +1,7 @@
 import React from 'react'
 import CI from '../../components/Sections/CI/CI'
 import Threeitems from '../../components/Sections/Threeitems/Threeitems'
+import Alttemp from '../../components/Sections/Alttemp/Alttemp'
 
 const Payrollsoftware = () => {
   const data = {
@@ -28,6 +29,24 @@ const Payrollsoftware = () => {
     subtitle: `Streamline your payroll process by importing employee time worked, leave taken and other employee details from your payroll system into Employment Hero.`
 }
 ]
+
+const Alttempdata = [
+  {
+    img: `https://employmenthero.com/wp-content/uploads/2023/02/Payroll_1_Left_Gungahlin-468x468.jpg`,
+    title: `“I can do it from anywhere”`,
+    subtitle: `“With Employment Hero Payroll, it takes me three hours to do payroll rather than one-and-a-half days—and I can do it from anywhere, which is invaluable.”`
+  },
+  {
+    img: `https://employmenthero.com/wp-content/uploads/2023/02/Payroll_2_Right_F45-468x468.jpg`,
+    title: `“It’s really easy.”`,
+    subtitle: `"Keeping up with the awards changes is really easy. When you sign in to the dashboard, it tells you straight away, 'this is the update, this is what's changed'."`
+  },
+  {
+    img: `https://employmenthero.com/wp-content/uploads/2023/02/Payroll_3_Right_SPP-468x468.jpg`,
+    title: `“Employment Hero has cut our payroll down”`,
+    subtitle: `"Employment Hero Payroll has cut our payroll down by a third now that we no longer have to input data from individual timesheets.”`
+  }
+]
   return (
     <div>
       <CI data={data}/>
@@ -41,6 +60,16 @@ const Payrollsoftware = () => {
 
       {/* section-4 */}
       <Threeitems item={item}/>
+
+      {/* section-6 */}
+      <div className="between">
+        <div className="h1-between">
+          <h1>Hear what our clients have to say</h1>
+        </div>
+      </div>
+
+      {/* section-7 */}
+      <Alttemp Alttempdata={Alttempdata}/>
     </div>
   )
 }
