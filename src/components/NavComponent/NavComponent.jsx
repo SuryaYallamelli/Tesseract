@@ -37,6 +37,10 @@ function NavComponent() {
   activeNav.resources
     ? (document.body.style.overflow = "hidden")
     : (document.body.style.overflow = "auto");
+
+    function propagationHandler(e){
+      e.stopPropagation();
+    } 
   return (
     <>
       <div className="nav-container">
@@ -110,35 +114,35 @@ function NavComponent() {
       <div className="nav-modals">
         {activeNav.products && (
           <div className="Modal-container" onClick={modalClickHandler}>
-            <div className="Modal-content">
-              <NavProductsModal />
+            <div className="Modal-content" onClick={propagationHandler}>
+              <NavProductsModal props = {[setActiveNav, activeNavValues]}/>
             </div>
           </div>
         )}
         {activeNav.solutions && (
           <div className="Modal-container" onClick={modalClickHandler}>
-            <div className="Modal-content">
+            <div className="Modal-content" onClick={propagationHandler}>
               <NavSolutionsModal />
             </div>
           </div>
         )}
         {activeNav.whyus && (
           <div className="Modal-container" onClick={modalClickHandler}>
-            <div className="Modal-content">
+            <div className="Modal-content" onClick={propagationHandler}>
               <NavWhyusModal />
             </div>
           </div>
         )}
         {activeNav.partners && (
           <div className="Modal-container" onClick={modalClickHandler}>
-            <div className="Modal-content">
+            <div className="Modal-content" onClick={propagationHandler}>
               <NavPartnersModal />
             </div>
           </div>
         )}
         {activeNav.resources && (
           <div className="Modal-container" onClick={modalClickHandler}>
-            <div className="Modal-content">
+            <div className="Modal-content" onClick={propagationHandler}>
               <NavResourcesModal />
             </div>
           </div>

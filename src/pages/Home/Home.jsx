@@ -7,15 +7,6 @@ import Footer from "../../components/Footer/Footer";
 import Rating from "../../components/Sections/Rating/Rating";
 
 const App = () => {
-  // const [showModal, setShowModal] = useState(false);
-
-  // const handleClick = () => {
-  //   setShowModal(!showModal);
-  // };
-
-  // const handleClose = () => {
-  //   setShowModal(false);
-  // };
 
   const resetValues = {
     div1: false,
@@ -138,7 +129,6 @@ const App = () => {
                     style={{ width: "520", height: "450", loading: "lazy" }}
                     alt=""
                   />
-                  {/* <img class="h-image_fit content_media_image" srcset="https://employmenthero.com/wp-content/uploads/2023/02/Homepage-Carousel-1-Employee-List-520x450.png , https://employmenthero.com/wp-content/uploads/2023/02/Homepage-Carousel-1-Employee-List-1040x900.png 2x" src="https://employmenthero.com/wp-content/uploads/2023/02/Homepage-Carousel-1-Employee-List-520x450.png" width="520" height="450" alt="" loading="lazy"> */}
                 </div>
               </div>
               <div className="main">
@@ -155,7 +145,7 @@ const App = () => {
                 </div>
                 <div className="callout">
                   <a href="">
-                    <button className="btn btn-primary">HR Software</button>
+                    <button className="button-outline"><h4>HR Software</h4></button>
                   </a>
                 </div>
               </div>

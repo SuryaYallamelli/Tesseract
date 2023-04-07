@@ -2,7 +2,9 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div>Services page!</div>
+    <div>
+      Welcome to services!
+    </div>
   )
 }
 

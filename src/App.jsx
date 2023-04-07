@@ -47,6 +47,7 @@ import Safesecure from "./pages/Whyus/Safesecure";
 
 //Partners page imports
 import Partners from "./pages/Partners/Partners";
+import Outsourced from "./pages/Partners/Outsourced";
 import Accountants from "./pages/Partners/Accountants";
 import Bookkeepers from "./pages/Partners/Bookkeepers";
 import OPP from "./pages/Partners/OPP";
@@ -137,6 +138,7 @@ function App() {
 
           {/* Partners Section */}
           <Route path="/partner-network" element={<Partners />} />
+          <Route path="/outsourced-payroll-services" element={<Outsourced/>}/>
           <Route
             path="/partner-network/accountants"
             element={<Accountants />}

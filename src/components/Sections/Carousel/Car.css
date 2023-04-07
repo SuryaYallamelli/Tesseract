@@ -1,181 +1,41 @@
-@import url("https://fonts.googleapis.com/css?family=Roberto");
-body {
-    margin: 0;
-    font-family: "Roboto";
+.Car-parent {
+    background-color: #ffd621;
+    margin: 5% 15%;
+    z-index: -4;
 }
 
-
-/* .App {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    background-color: lightblue;
-} */
-
-.carousel {
-    overflow: hidden;
-    /* width: 700px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 7% 10%;
-}
-
-.inner {
-    width: 1000px;
-    white-space: nowrap;
-    transition: transform 0.3s;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-}
-
-.carousel-item {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 490px;
-    background-color: #fff;
-}
-
-.carousel-img {
-    width: 480px;
-    padding: 0 20px 0 20px;
-}
-
-.carousel-item-text {
-    /* background-color: red; */
-    font-size: 1.15rem;
-    margin: 40px 0 40px 0;
-    padding: 0 20px 0 20px;
-    white-space: normal;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     color: black;
+    width: 50px;
+    height: 50px;
+    z-index: -2;
 }
 
-.carousel-buttons {
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
+.d-block {
+    position: absolute;
+    padding-right: 50%;
+    width: 500px;
+    height: 550px;
+    z-index: -2;
 }
 
-.button-arrow {
-    background: none;
-    border: none;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-.indicators {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.indicator-buttons {
-    border: none;
-    cursor: pointer;
-}
-
-.indicators>button {
-    margin: 5px;
-    background: none;
-}
-
-.indicator-symbol {
-    color: #2634;
-}
-
-.indicator-symbol-active {
-    color: #ffffff;
-}
-
-
-/*--------------
------NavBar----
--------------*/
-
-.Navcontainer {
-    margin: 0px 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* background-color: red; */
-}
-
-.logo {
-    margin: 0px 0px;
-    font-size: 1.2rem;
-}
-
-.Navcontainer-lists {
-    /* background-color: blue; */
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    margin-left: 0px;
-    padding-left: 0px;
-}
-
-.Navcontainer-lists-items {
-    cursor: pointer;
-    font-size: 1.2rem;
-}
-
-.btn-group {
-    margin-left: 50px;
-}
-
-.btn {
-    height: 2.5rem;
-    border-radius: 25px;
-    padding: 0px 30px;
-    font-size: 15px;
-    font-weight: 15%;
-    margin: 0px 8px;
-    cursor: pointer;
-}
-
-.btn-1:hover {
-    border-color: #7622d7;
-    color: #7622d7;
-}
-
-.btn-2 {
-    background-color: #7622d7;
-    border: 0.125px solid #7622d7;
-    color: white;
-}
-
-.btn-2:hover {
-    background-color: #45167a;
-    border-color: #45167a;
-}
-
-.Modal-container {
+.item {
     position: relative;
-}
-
-.modal-container {
-    position: relative;
-    top: 0;
-    z-index: 1;
-    left: auto;
     width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.4);
-    justify-content: center;
+    height: 550px;
+    z-index: -3;
 }
 
-.modal-content {
-    background-color: red;
-    margin: auto;
-    padding: 20px;
-    width: 80%;
-    height: 500px;
-    max-width: 800px;
-    Position: relative;
+.content {
+    position: absolute;
+    width: 50%;
+    height: 550px;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: -2;
 }

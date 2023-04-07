@@ -16,10 +16,10 @@ const CI = ({data}) => {
                 <h3>{subtitle}</h3>
               </div>
           </div>
-          <a className='button' href="">{button}</a>
+          { !button ? "" : <a className='button' href="">{button}</a>}
         </div>
         <div className="right">
-          <img style={{width:'360px', height:'400px'}} className='image' src={image} alt="Network issue" />
+          { !image ? "" : <img style={{width:'400px', height:'400px'}} className='image' src={image} alt="Network issue" />}
         </div>
       </div>
     </div>

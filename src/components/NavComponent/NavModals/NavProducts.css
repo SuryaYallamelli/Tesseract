@@ -1,0 +1,96 @@
+.lft {
+    background-color: #f9f3fe;
+    height: 100%;
+    width: 27.3%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 50px;
+    gap: 20px;
+}
+
+.lft>h4 {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.lft>h5 {
+    line-height: 20px;
+}
+
+.lft .button-outline {
+    text-decoration: none;
+}
+
+.lft .button-outline h4 {
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.lft .button-outline h4:hover {
+    color: blueviolet;
+}
+
+.lft .button-outline:hover {
+    color: blueviolet;
+}
+
+.mid {
+    height: 95%;
+    width: 36.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    margin-top: 0px;
+    padding-left: 50px;
+    border-right: 0.5px solid rgb(214, 220, 226);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.mid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    width: 270px;
+    padding-left: 20px;
+}
+
+.mid-item:hover {
+    background-color: #f9f3fe;
+}
+
+.rht {
+    /* background-color: green; */
+    padding-top: 50px;
+    height: 50%;
+    width: 36.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-left: 70px;
+}
+
+.rht>h4 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.rht>h5 {
+    line-height: 20px;
+}
+
+.rht .anchor {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 200px;
+}

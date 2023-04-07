@@ -249,12 +249,14 @@ h4 {
 
 .between {
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
     height: 160px;
+    padding: 5% 15%;
 }
 
 .between-h1 {
+    text-align: center;
     font-size: 4rem;
     font-weight: 500;
 }

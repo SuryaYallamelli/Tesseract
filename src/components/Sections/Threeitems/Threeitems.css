@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 11% 15%;
+    padding: 8% 15%;
 }
 
 .item-1,
@@ -11,4 +11,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.item-1>.subtitle {
+    padding: 5% 6%;
+    text-align: center;
 }
