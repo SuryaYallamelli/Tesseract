@@ -3,7 +3,7 @@ import Footer from '../../components/Footer/Footer'
 import Alttemp from '../../components/Sections/Alttemp/Alttemp'
 import CI from '../../components/Sections/CI/CI'
 import Threeitems from '../../components/Sections/Threeitems/Threeitems'
-import { item, data,Alttempdata } from '../../components/Cmpntdata'
+import { item, data, Alttempdata } from '../../components/Cmpntdata'
 
 
 const Products = () => {

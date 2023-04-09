@@ -5,6 +5,7 @@ const CI = ({data}) => {
   const{title, subtitle, image, button, bgc} = data;
   const bgColor = {
     backgroundColor : bgc
+    
   }
   return (
     <div>
